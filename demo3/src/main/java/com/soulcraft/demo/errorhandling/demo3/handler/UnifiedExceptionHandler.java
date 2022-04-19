@@ -1,6 +1,6 @@
-package com.soulcraft.demo.errorhandling.demo2.handler;
+package com.soulcraft.demo.errorhandling.demo3.handler;
 
-import com.soulcraft.demo.errorhandling.demo2.exception.BusinessException;
+import com.soulcraft.demo.errorhandling.demo3.exception.BusinessException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
