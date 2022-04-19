@@ -1,0 +1,4 @@
+project.description = "demo1 Module"
+
+dependencies {
+}
