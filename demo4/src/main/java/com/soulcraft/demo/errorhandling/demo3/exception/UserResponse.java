@@ -5,7 +5,7 @@ import lombok.Getter;
 
 /**
  * <p>
- * 数据库返回信息枚举
+ * 用户操作相关返回信息
  * </p>
  *
  * @author Scott
@@ -13,7 +13,7 @@ import lombok.Getter;
  */
 @Getter
 @AllArgsConstructor
-public enum UserEnums implements BusinessExceptionAssert {
+public enum UserResponse implements BusinessExceptionAssert {
 
     USERNAME_CANNOT_BE_EMPTY(600, "Username cannot be null or empty"),
     PASSWORD_CANNOT_BE_EMPTY(601, "Password cannot be null or empty"),
