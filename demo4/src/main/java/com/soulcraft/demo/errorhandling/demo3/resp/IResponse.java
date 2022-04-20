@@ -2,7 +2,7 @@ package com.soulcraft.demo.errorhandling.demo3.resp;
 
 /**
  * <p>
- * 返回信息枚举
+ * 返回信息
  * </p>
  *
  * @author Scott
