@@ -23,6 +23,6 @@ public class UnifiedExceptionHandler {
     @ResponseBody
     public ErrorResponse handleBusinessException(BusinessException e) {
         log.error(e.getMessage(), e);
-        return new ErrorResponse(e.getresponse());
+        return new ErrorResponse(e.getResponse());
     }
 }

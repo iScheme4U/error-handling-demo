@@ -15,19 +15,19 @@ import lombok.Getter;
 public class BusinessException extends BaseException {
 
     /**
-     * 构造基础异常对象
+     * 构造业务异常对象
      *
-     * @param response 返回信息枚举
+     * @param response 返回信息
      */
     public BusinessException(IResponse response) {
         super(response);
     }
 
     /**
-     * 构造基础异常对象
+     * 构造业务异常对象
      *
-     * @param response 返回信息枚举
-     * @param cause        原因
+     * @param response 返回信息
+     * @param cause    原因
      */
     public BusinessException(IResponse response, Throwable cause) {
         super(response, cause);

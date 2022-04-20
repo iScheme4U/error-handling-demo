@@ -18,7 +18,7 @@ public class BaseException extends RuntimeException {
     /**
      * 构造基础异常对象
      *
-     * @param response 返回信息枚举
+     * @param response 返回信息
      */
     public BaseException(IResponse response) {
         this(response, null);
@@ -27,8 +27,8 @@ public class BaseException extends RuntimeException {
     /**
      * 构造基础异常对象
      *
-     * @param response 返回信息枚举
-     * @param cause        原因
+     * @param response 返回信息
+     * @param cause    原因
      */
     public BaseException(IResponse response, Throwable cause) {
         super(response.getMessage(), cause);
