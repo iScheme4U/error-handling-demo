@@ -101,7 +101,7 @@ public interface Assert {
     }
 
     /**
-     * 断言集合非空，否则抛出异常
+     * 断言字符串非空，否则抛出异常
      *
      * @param str 检查元素
      */
