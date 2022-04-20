@@ -19,9 +19,8 @@ public class UserServiceImpl implements UserService {
     public boolean login(String username, String password) {
         UserResponse.USERNAME_CANNOT_BE_EMPTY.assertStringNotEmpty(username);
         UserResponse.PASSWORD_CANNOT_BE_EMPTY.assertStringNotEmpty(password);
-        if (!"admin".equals(username) || !"123456".equals(password)) {
-            UserResponse.USER_LOGIN_FAILED.throwNewException();
-        }
+        boolean validated = "admin".equals(username) && "123456".equals(password);
+        UserResponse.USER_LOGIN_FAILED.assertTrue(validated);
         return true;
     }
 }
