@@ -16,12 +16,12 @@ public interface Assert {
      *
      * @return BaseException 基础异常
      */
-    BusinessException newException();
+    BaseException newException();
 
     /**
      * 抛出异常
      */
-    default void throwNewException() throws BusinessException {
+    default void throwNewException() throws BaseException {
         throw newException();
     }
 
@@ -31,14 +31,14 @@ public interface Assert {
      * @param cause 原因
      * @return BaseException 基础异常
      */
-    BusinessException newException(Throwable cause);
+    BaseException newException(Throwable cause);
 
     /**
      * 抛出异常
      *
      * @param cause 原因
      */
-    default void throwNewException(Throwable cause) throws BusinessException {
+    default void throwNewException(Throwable cause) throws BaseException {
         throw newException(cause);
     }
 
