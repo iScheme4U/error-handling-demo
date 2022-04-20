@@ -19,11 +19,11 @@ public class ErrorResponse extends BaseResponse {
         super(code, message);
     }
 
-    public ErrorResponse(IResponseEnum responseEnum) {
+    public ErrorResponse(IResponse responseEnum) {
         this(responseEnum, responseEnum.getMessage());
     }
 
-    public ErrorResponse(IResponseEnum responseEnum, String message) {
+    public ErrorResponse(IResponse responseEnum, String message) {
         this(responseEnum.getCode(), message);
     }
 }

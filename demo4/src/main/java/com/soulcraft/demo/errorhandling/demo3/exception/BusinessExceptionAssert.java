@@ -1,6 +1,6 @@
 package com.soulcraft.demo.errorhandling.demo3.exception;
 
-import com.soulcraft.demo.errorhandling.demo3.resp.IResponseEnum;
+import com.soulcraft.demo.errorhandling.demo3.resp.IResponse;
 
 /**
  * <p>
@@ -10,7 +10,7 @@ import com.soulcraft.demo.errorhandling.demo3.resp.IResponseEnum;
  * @author Scott
  * @since 2022-03-10
  */
-public interface BusinessExceptionAssert extends IResponseEnum, Assert {
+public interface BusinessExceptionAssert extends IResponse, Assert {
 
     @Override
     default BusinessException newException() {

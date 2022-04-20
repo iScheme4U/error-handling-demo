@@ -8,7 +8,7 @@ package com.soulcraft.demo.errorhandling.demo3.resp;
  * @author Scott
  * @since 2022-03-10
  */
-public interface IResponseEnum {
+public interface IResponse {
 
     /**
      * 返回码

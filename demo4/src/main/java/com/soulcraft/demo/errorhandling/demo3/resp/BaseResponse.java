@@ -13,7 +13,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public abstract class BaseResponse implements IResponseEnum {
+public abstract class BaseResponse implements IResponse {
 
     /**
      * 整个错误码信息
