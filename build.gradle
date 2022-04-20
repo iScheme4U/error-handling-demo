@@ -10,6 +10,9 @@ ext {
     set('lombokVersion', '1.18.22')
     set('slf4jVersion', '1.7.30')
     set('springdocVersion', '1.6.7')
+    set('mysqlDriverVersion', '8.0.25')
+    set("mybatisPlusVersion", "3.4.2")
+    set("hutoolVersion", "4.5.7")
 }
 
 

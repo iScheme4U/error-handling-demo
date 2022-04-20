@@ -1,4 +1,7 @@
 project.description = "demo5 Module"
 
 dependencies {
+    implementation "cn.hutool:hutool-all:${hutoolVersion}"
+    implementation "com.baomidou:mybatis-plus-boot-starter:${mybatisPlusVersion}"
+    runtimeOnly "mysql:mysql-connector-java:${mysqlDriverVersion}"
 }
