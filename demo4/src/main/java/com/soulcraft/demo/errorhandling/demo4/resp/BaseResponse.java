@@ -1,4 +1,4 @@
-package com.soulcraft.demo.errorhandling.demo3.resp;
+package com.soulcraft.demo.errorhandling.demo4.resp;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -16,11 +16,11 @@ import lombok.Setter;
 public abstract class BaseResponse implements IResponse {
 
     /**
-     * 整个错误码信息
+     * 错误码
      */
     private int code;
     /**
-     * 返回消息
+     * 错误信息
      */
     private String message;
 

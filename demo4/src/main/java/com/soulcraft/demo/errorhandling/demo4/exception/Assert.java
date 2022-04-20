@@ -1,4 +1,4 @@
-package com.soulcraft.demo.errorhandling.demo3.exception;
+package com.soulcraft.demo.errorhandling.demo4.exception;
 
 import java.util.Collection;
 

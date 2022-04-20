@@ -1,4 +1,4 @@
-package com.soulcraft.demo.errorhandling.demo3;
+package com.soulcraft.demo.errorhandling.demo4;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

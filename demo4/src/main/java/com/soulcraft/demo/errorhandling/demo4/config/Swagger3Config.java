@@ -1,4 +1,4 @@
-package com.soulcraft.demo.errorhandling.demo3.config;
+package com.soulcraft.demo.errorhandling.demo4.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;

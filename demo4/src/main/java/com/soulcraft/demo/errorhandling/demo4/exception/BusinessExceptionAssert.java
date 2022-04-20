@@ -1,6 +1,6 @@
-package com.soulcraft.demo.errorhandling.demo3.exception;
+package com.soulcraft.demo.errorhandling.demo4.exception;
 
-import com.soulcraft.demo.errorhandling.demo3.resp.IResponse;
+import com.soulcraft.demo.errorhandling.demo4.resp.IResponse;
 
 /**
  * <p>

@@ -1,7 +1,7 @@
-package com.soulcraft.demo.errorhandling.demo3.controller;
+package com.soulcraft.demo.errorhandling.demo4.controller;
 
 
-import com.soulcraft.demo.errorhandling.demo3.service.UserService;
+import com.soulcraft.demo.errorhandling.demo4.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;

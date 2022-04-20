@@ -1,4 +1,4 @@
-package com.soulcraft.demo.errorhandling.demo3.resp;
+package com.soulcraft.demo.errorhandling.demo4.resp;
 
 /**
  * <p>

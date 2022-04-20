@@ -1,7 +1,7 @@
-package com.soulcraft.demo.errorhandling.demo3.service.impl;
+package com.soulcraft.demo.errorhandling.demo4.service.impl;
 
-import com.soulcraft.demo.errorhandling.demo3.exception.UserResponse;
-import com.soulcraft.demo.errorhandling.demo3.service.UserService;
+import com.soulcraft.demo.errorhandling.demo4.exception.UserResponse;
+import com.soulcraft.demo.errorhandling.demo4.service.UserService;
 import org.springframework.stereotype.Service;
 
 /**

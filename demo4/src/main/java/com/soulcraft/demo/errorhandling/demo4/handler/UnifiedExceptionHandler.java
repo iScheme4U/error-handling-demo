@@ -1,7 +1,7 @@
-package com.soulcraft.demo.errorhandling.demo3.handler;
+package com.soulcraft.demo.errorhandling.demo4.handler;
 
-import com.soulcraft.demo.errorhandling.demo3.exception.BusinessException;
-import com.soulcraft.demo.errorhandling.demo3.resp.ErrorResponse;
+import com.soulcraft.demo.errorhandling.demo4.exception.BusinessException;
+import com.soulcraft.demo.errorhandling.demo4.resp.ErrorResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -23,6 +23,6 @@ public class UnifiedExceptionHandler {
     @ResponseBody
     public ErrorResponse handleBusinessException(BusinessException e) {
         log.error(e.getMessage(), e);
-        return new ErrorResponse(e.getResponseEnum());
+        return new ErrorResponse(e.getresponse());
     }
 }

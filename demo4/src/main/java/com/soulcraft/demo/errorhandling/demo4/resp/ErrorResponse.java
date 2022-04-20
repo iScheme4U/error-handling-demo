@@ -1,4 +1,4 @@
-package com.soulcraft.demo.errorhandling.demo3.resp;
+package com.soulcraft.demo.errorhandling.demo4.resp;
 
 /**
  * <p>
@@ -19,11 +19,11 @@ public class ErrorResponse extends BaseResponse {
         super(code, message);
     }
 
-    public ErrorResponse(IResponse responseEnum) {
-        this(responseEnum, responseEnum.getMessage());
+    public ErrorResponse(IResponse response) {
+        this(response, response.getMessage());
     }
 
-    public ErrorResponse(IResponse responseEnum, String message) {
-        this(responseEnum.getCode(), message);
+    public ErrorResponse(IResponse response, String message) {
+        this(response.getCode(), message);
     }
 }
