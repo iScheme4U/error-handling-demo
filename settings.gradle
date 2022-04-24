@@ -6,6 +6,7 @@ include("demo3")
 include("demo4")
 include("demo5")
 include("demo6")
+include("demo7")
 
 rootProject.children.each { project ->
     project.buildFileName = "${project.name}.gradle"
