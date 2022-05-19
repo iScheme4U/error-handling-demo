@@ -26,6 +26,21 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+//    @GetMapping(value = "/login")
+//    @ResponseBody
+    public String loginWithTryCatch(@RequestParam(value = "username") String username,
+                                    @RequestParam(value = "password") String password) {
+        try {
+            boolean result = userService.login(username, password);
+            if (result) {
+                return "success";
+            }
+        } catch (Exception e) {
+            return "failure:" + e.getMessage();
+        }
+        return "failure";
+    }
+
     @Operation(summary = "Login")
     @GetMapping(value = "/login")
     public String login(@RequestParam(value = "username") String username,
